@@ -1,0 +1,47 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lightgray;
+}
+
+main {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+#reset {
+    text-align: center;
+    font-size: 18px;
+    display: block;
+    margin: 0 auto 24px auto;
+    width: 75px;
+    height: 32px;
+    cursor: pointer;
+    
+}
+
+.grid {
+    width: 600px;
+    height: 600px;
+    display: grid;
+    border: solid black 2px;
+    margin: 0 auto;
+}
+
+.grid-item {
+    width: auto;
+    height: auto;
+    border: solid black 1px;
+    background-color: lightgray;
+}
